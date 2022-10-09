@@ -1,0 +1,198 @@
+/* -----------------CSS FILE FOR NOUSHAD------------ */
+/* ------------DO NOT TOUCH APP.CSS----------------------- */
+.vueperslides__arrow svg {
+  width: 3em;
+}
+.light-gallery__close {
+  top: 50px;
+}
+.attrImgWrapper {
+  width: 100;
+}
+.video-player {
+  width: 100%;
+  height: 330px;
+}
+.video-js {
+  width: 100%;
+  height: 100%;
+}
+.video-js .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer {
+  border-top: 1px solid rgb(241, 243, 249);
+  justify-content: space-around;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 2px 0px;
+  z-index: 110;
+  justify-content: center !important;
+}
+button.primaryControl {
+  border: none;
+  background-color: rgb(255 88 33);
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 0.916666rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  width: 120px;
+}
+.search-filter-mobile-wrapper {
+  background-color: rgb(247, 247, 250);
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 6px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.search-filter-mobile-wrapper header {
+  font-family: "ProximaRegular";
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 0px 2px 0px;
+}
+.search-filter-mobile-wrapper header,
+.search-filter-mobile-wrapper footer {
+  font-family: "ProximaRegular";
+  border-bottom: 1px solid rgb(241, 243, 249);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 12px 10px;
+}
+.search-filter-mobile-wrapper .closeButton {
+  color: rgb(226, 229, 241);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.search-filter-mobile-wrapper .facetsWrapper {
+  font-family: "ProximaRegular";
+  margin-top: 46px;
+  overflow: scroll;
+  max-height: 85vh;
+  margin-bottom: 50px;
+}
+.drawer {
+  max-height: 2000px;
+  padding: 5px 20px;
+}
+.drawer .searchFilterWrap {
+  padding: 0px;
+  margin-bottom: 5px;
+}
+.drawer .searchFilter {
+  width: 100%;
+  margin: none;
+}
+.filter-name {
+  padding: 12px;
+  border-bottom: 1px solid rgb(241, 243, 249);
+  background-color: rgb(255, 255, 255);
+}
+.filter-name .heading {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.titleWrap {
+  border: none;
+  background: none;
+  display: flex;
+  flex: 0 0 80%;
+}
+.titleWrap .title {
+  font-family: "ProximaRegular";
+  line-height: 15px;
+  margin: 0px 5px;
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+.chevron {
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+}
+.ctSelect.mobile-drawer {
+  width: 100% !important;
+  float: none !important;
+}
+.heading.open {
+  padding-bottom: 12px;
+}
+button.secondaryControl {
+  border: 1px solid rgb(56, 102, 223);
+  color: rgb(56, 102, 223);
+  padding: 10px 20px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-size: 0.916666rem;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  width: 120px;
+}
+.vuejs-countdown .digit {
+  background-color: #ff5722;
+  border-radius: 5px;
+  width: 42px;
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  line-height: 1px;
+}
+.vuejs-countdown li {
+  margin: 0px 1px !important;
+}
+.vuejs-countdown .digit {
+  font-size: 13px !important;
+  font-weight: normal !important;
+}
+.vuejs-countdown li:after {
+  content: normal !important;
+}
+.vuejs-countdown .text {
+  color: #fff !important;
+  padding: 5px 0px;
+}
+.carousel_adevertisement .VueCarousel {
+  width: 100%;
+  padding: 10px 0px;
+}
+.carousel_adevertisement .VueCarousel-pagination {
+  display: none;
+}
+.carousel_adevertisement .cover-slider {
+  margin-bottom: 0px;
+}

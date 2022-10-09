@@ -1,0 +1,28 @@
+/* -----------------CSS FILE FOR ABHISHEK------------ */
+/* ------------DO NOT TOUCH APP.CSS----------------------- */
+
+/* (1)  In ProductList.vue for implementing in ManageStore Page */
+.inactive-button {
+  background-color: #ff5722;
+}
+.inactive-button .offer-discount-content {
+  color: #fff;
+}
+
+/* (2) Date Picker Css Border around it */
+.date_picker {
+  border: solid 1px #c8d2e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* (3) Vue Awesome Swiper - Navigation Active Bullet Class overrites default class. */
+.gray-bullets{
+  opacity: 1;
+  background: #484848  !important;
+}
+
+/* (4) Form Section Like Title Class with a border at bottom*/
+.grey-bottom-border{
+  border-bottom: 1px solid #eeee
+}
